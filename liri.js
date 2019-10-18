@@ -13,8 +13,11 @@ var fs = require('fs');
 //code to require the keys.js file and store as a variable
 var keys = require("./keys.js");
 
-/*access keys information like below
-var spotify = new Spotify(keys.spotify);*/
+//spotify
+var Spotify = require('node-spotify-api');
+
+//access keys information like below
+var spotify = new Spotify(keys.spotify);
 
 //console.log("we ran our file");///and the functions for each of these to the if statement.  Could also do a switch case.
 var userSearch = process.argv.slice(3).join(" ");
@@ -25,7 +28,7 @@ if(process.argv[2] === "concert-this"){
 
 }
 if(process.argv[2] === "spotify-this-song"){
-    console.log("user wants a song");
+    spotifyThis();
 }
 if(process.argv[2] === "movie-this"){
     movieThis();
@@ -138,4 +141,15 @@ function movieThis(){
     // handle error
     console.log(error);
   });  
+}
+
+function spotifyThis(){
+    spotify.search({ type: 'track', query: userSearch }, function(err, data) {
+        if (err) {
+          return console.log('Error occurred: ' + err);
+        }
+       
+      console.log(data); 
+      });
+    
 }
