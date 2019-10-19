@@ -1,13 +1,1 @@
-Venue Location: HollywoodFL
-Venue Name: Seminole Hard Rock Hotel & Casino - Hollywood, FL
-Venue Name: Seminole Hard Rock Hotel & Casino - Hollywood, FL
-Concert Date: 10/25/2019
-Venue Location: HollywoodFL
-Movie Release Date: 1999
-Rating: R
-Movie Title: The Matrix
-Country: USA
-Rotten Tomatoes Rating: 73/100
-Language: English
-Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
-Movie Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
