@@ -53,6 +53,11 @@ function concertThis() {
             var event = moment(response.data[0].datetime).format('MM/DD/YYYY');
             console.log("Concert Date: " + event);
 
+            fs.appendFile('log.txt', "----------------------------------------" +'\n', function(err){
+                if (err){
+                    console.log(err)
+                }
+            });
             fs.appendFile('log.txt', "Artist/Band Lineup: " + response.data[0].lineup + '\n', function (err) {
                 if (err) {
                     console.log(err)
@@ -111,6 +116,11 @@ function movieThis() {
                 console.log("Movie Plot: " + response.data.Plot);
                 console.log("Actors: " + response.data.Actors);
     
+                fs.appendFile('log.txt', "----------------------------------------" +'\n', function(err){
+                    if (err){
+                        console.log(err)
+                    }
+                });
                 fs.appendFile('log.txt', "Movie Title: " + response.data.Title + '\n', function (err) {
                     if (err) {
                         console.log(err)
@@ -186,7 +196,12 @@ function spotifyThis() {
              console.log("Album Name: " + songResponse.album.name);
              console.log("Preview Link: " + songResponse.preview_url);
  
-            fs.appendFile('log.txt', "Artists: " + songResponse.artists[0].name + '\n', function (err) {
+             fs.appendFile('log.txt', "----------------------------------------" +'\n', function(err){
+                if (err){
+                    console.log(err)
+                }
+            });
+             fs.appendFile('log.txt', "Artists: " + songResponse.artists[0].name + '\n', function (err) {
                  if (err) {
                      console.log(err)
                  }
