@@ -21,6 +21,7 @@ App Instructions:
 
 Screenprints:
 ![Image description](/images/image 1.png).
+<p><img src="/images/image 1.png"/></p>
 ![Image description](/images/image 2.png).
 ![Image description](/images/image 3.png).
 ![Image description](/images/image 4.png).
