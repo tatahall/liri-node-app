@@ -39,3 +39,13 @@ Song Name: Truth Hurts
 Artists: Lizzo
 Preview Link: https://p.scdn.co/mp3-preview/c8bdc870ffc6044c84f0d52306a35551fb3d0263?cid=1ab467d060ac4938a03318c506c13b02
 Album Name: Cuz I Love You (Deluxe)
+Artists: Frank Sinatra
+----------------------------------------
+Album Name: Ol' Blue Eyes Is Back
+Song Name: Send In The Clowns - From ‘A Little Night Music’
+Preview Link: null
+Artists: Lizzo
+Album Name: Cuz I Love You (Deluxe)
+----------------------------------------
+Preview Link: https://p.scdn.co/mp3-preview/c8bdc870ffc6044c84f0d52306a35551fb3d0263?cid=1ab467d060ac4938a03318c506c13b02
+Song Name: Truth Hurts

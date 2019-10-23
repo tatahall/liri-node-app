@@ -35,6 +35,9 @@ if (process.argv[2] === "movie-this") {
 if (process.argv[2] === "do-what-it-says") {
     doThis();
 }
+if (process.argv[2] === "help"){
+    console.log("Enter movie-this, concert-this or spotify-this-song followed by the search term. For example, you want to find information on the movie 'The Matrix', enter: node liri.js movie-this the matrix.")
+}
 
 //movie-this will be similari
 function concertThis() {
