@@ -20,14 +20,12 @@ App Instructions:
     *Please note that the quotation marks are being used as placeholders and should be replaced with either the concert/artist, movie title or song/artist being searched for with each option.  For example, if I wanted to search for the matrix, I would enter: node liri.js movie-this the matrix.
 
 Screenprints:
-![Image description](/images/image 1.png).
 <p><img src="/images/image 1.png"/></p>
-![Image description](/images/image 2.png).
-![Image description](/images/image 3.png).
-![Image description](/images/image 4.png).
-![Image description](/images/image 5.png).
-![Image description](/images/image 6.png).
-
+<p><img src="/images/image 2.png"/></p>
+<p><img src="/images/image 3.png"/></p>
+<p><img src="/images/image 4.png"/></p>
+<p><img src="/images/image 5.png"/></p>
+<p><img src="/images/image 6.png"/></p>
 Github repo link:
 https://github.com/tatahall/liri-node-app
 
