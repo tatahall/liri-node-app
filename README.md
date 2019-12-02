@@ -26,6 +26,8 @@ Screenprints:
 <p><img src="/images/image 4.png"/></p>
 <p><img src="/images/image 5.png"/></p>
 <p><img src="/images/image 6.png"/></p>
+<p><img src="/images/scrnprnt1.png"/></p>
+
 Github repo link:
 https://github.com/tatahall/liri-node-app
 
